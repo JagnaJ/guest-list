@@ -15,6 +15,14 @@
         <input type="text" id="input-name" placeholder="First name">
         <input type="text" id="input-surname" placeholder="Last name">
         <button id="add-guest">Submit</button>
+        <div class="filter-group">
+            <label for="presence-filter">Filter by presence:</label>
+            <select id="presence-filter">
+                <option value="all">All guests</option>
+                <option value="present">Present</option>
+                <option value="absent">Absent</option>
+            </select>
+        </div>
       </div>
       <ul id="guest-list"></ul>
       <button id="remove-all">Remove All</button>

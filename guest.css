@@ -16,14 +16,17 @@ h1, p {
     text-align: center;
 }
 
-input, button {
+input, 
+button, 
+#presence-filter {
     padding: 10px;
     border: none;
     border-radius: 4px;
     margin: 5px 0;
 }
 
-button {
+button,
+#presence-filter {
     cursor: pointer;
     background-color: #ffccbc;
     color: #5d4037;
